@@ -6,7 +6,6 @@ import { signal } from "@preact/signals-react";
 const counter = {
     count: signal(0),
 };
-
 function App() {
     const { count } = counter;
 
